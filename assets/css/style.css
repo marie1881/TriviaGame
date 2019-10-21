@@ -1,0 +1,68 @@
+body { 
+	background: url(../images/cartoon.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Modak', cursive;
+    font-family: 'Anton', sans-serif; 
+    font-family: 'Baloo Bhai', cursive; 
+}
+
+html {
+	cursor: url(../images/controller.png), auto;
+}
+
+h1 {
+    font-family: 'Modak', cursive;
+    color: rgb(91, 161, 241);
+    font-size: 65px;
+    text-align: center;
+	padding: 30px;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+
+
+h2,
+h3 {
+	font-family: 'Modak', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+	padding: 30px;
+	text-shadow: 2px 2px rgb(0, 0, 0)(189, 55, 55);
+}
+
+.answer,
+#timer {
+	font-weight: 900;
+}
+
+#start {
+	color: black;
+}
+
+.choices {
+	text-align: center;
+	border: groove 2px black;
+	border-radius: 5%;
+	margin: 0 35%;
+}
+
+.choices:hover {
+	background-color: red;
+	color: white;
+}
+
+#gameScreen {
+	-webkit-box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
+	-moz-box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
+	box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
+}
+
+.shadow {
+	-webkit-box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
+	-moz-box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
+	box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
+}
