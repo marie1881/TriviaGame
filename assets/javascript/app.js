@@ -13,7 +13,7 @@ $(document).ready(function() {
     // question & answer array
     var questions = [
         {
-            question: "what is the final evolution of dratini?",
+            question: "What is the final evolution of dratini?",
             choices: ["Dragonite", "Gyarados", "Dragonair", "Charizard"],
             correctAnswer: "Dragonite",
             image: "<img src='assets/images/dragonite.gif'>"
@@ -44,7 +44,7 @@ $(document).ready(function() {
 	    image: "<img src='assets/images/teacher.gif'>"
 	  }, 
 	  {
-	    question: "Who are the main characters on The Simpsons?",
+	    question: "Which characters make up The Simpsons family?",
 	    choices: ["Homer, Marge, Lisa & Maggie", "Homer, Marge, Lisa, Bart & Mage", "Homer, Marge, Lisa, Bart & Maggie", "Homer, Marj, Lisa, Bart & Maggie"],
 	    correctAnswer: "Homer, Marge, Lisa, Bart & Maggie",
 	    image: "<img src='assets/images/simpsons.gif'>"

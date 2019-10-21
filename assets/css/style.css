@@ -5,7 +5,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	
+	font-size: 30px;
     font-family: 'Baloo Bhai', cursive; 
 }
 
@@ -13,17 +13,14 @@ body {
 h1 {
     font-family: 'Modak', cursive;
     color: rgb(91, 119, 241);
-    font-size: 90px;
+    font-size: 88px;
     text-align: center;
 	padding: 30px;
 	-webkit-text-stroke-width: 3px;
    -webkit-text-stroke-color: black;
 }
 
-p {
-    font-size: 50px;
-    
-}
+
 
 h2,
 h3 {
@@ -58,8 +55,8 @@ h3 {
 }
 
 img {
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 200px;
 }
 
 .choices:hover {
@@ -70,13 +67,15 @@ img {
 #gameScreen {
     padding: 27px;
     font-size: 40px;
-	-webkit-box-shadow: 7px 5px 47px 0px rgba(0, 89, 255, 0.76);
-	-moz-box-shadow: 7px 5px 47px 0px rgba(0, 204, 255, 0.76);
-	box-shadow: 20px 5px 47px 0px rgba(165, 43, 247, 0.76);
+    background-color: rgb(23, 201, 255);
+    border: 2px solid black;
+	-webkit-box-shadow: 7px 5px 47px 20px rgba(0, 89, 255, 0.76);
+	-moz-box-shadow: 7px 5px 47px 20px rgba(32, 141, 243, 0.76);
+	box-shadow: 20px 5px 47px 20px rgba(91, 176, 255, 0.76);
 }
 
 .shadow {
-	-webkit-box-shadow: -7px 6px 5px -1px rgba(0, 225, 255, 0.79);
+	-webkit-box-shadow: -7px 6px 5px -1px rgba(0, 60, 255, 0.79);
 	-moz-box-shadow: -7px 6px 5px -1px rgba(0, 60, 255, 0.79);
 	box-shadow: -7px 6px 5px -1px rgba(102, 205, 253, 0.79);
 }
