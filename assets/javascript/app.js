@@ -87,7 +87,7 @@ $(document).ready(function() {
 	  },
 	  {
 	    question: "Who is Kim Possible's Arch-Nemesis?",
-	    choices: ["Señor Senior Jr.,", "Monkey Fist", " Shego", "Ron Stoppable"],
+	    choices: ["Senior Jr", "Monkey Fist", " Shego", "Ron Stoppable"],
 	    correctAnswer: "Shego",
 	    image: "<img src='assets/images/shego.gif'>"
 	  },
@@ -99,7 +99,7 @@ $(document).ready(function() {
 	  },
 	  {
 	    question: "Which brother from Phineas and Ferb had green hair?",
-	    choices: ["Phineas", "Ferb"],
+	    choices: ["Phineas", "Ferb", "Ferbus", "Phintas"],
 	    correctAnswer: "Ferb",
 	    image: "<img src='assets/images/ferb.gif'>"
 	  }];
@@ -165,15 +165,15 @@ $(document).ready(function() {
 	// screen that shows final score and nice message :)
 	function resultsScreen() {
 		if (correctGuesses === questions.length) {
-			var endMessage = "Perfection! Might want to go outside more tho";
+			var endMessage = "Perfection!";
 			var bottomText = "#nerdalert!";
 		}
 		else if (correctGuesses > incorrectGuesses) {
-			var endMessage = "Good work! But do better you can...";
+			var endMessage = "Good work!";
 			var bottomText = "all your base are belong to us";
 		}
 		else {
-			var endMessage = "You seem to have taken an arrow to the knee";
+			var endMessage = "Scrub";
 			var bottomText = "#scrub";
 		}
 		$("#gameScreen").html("<p>" + endMessage + "</p>" + "<p>You got <strong>" + 

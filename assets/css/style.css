@@ -9,14 +9,11 @@ body {
     font-family: 'Baloo Bhai', cursive; 
 }
 
-html {
-	cursor: url(../images/controller.png), auto;
-}
 
 h1 {
     font-family: 'Modak', cursive;
     color: rgb(91, 119, 241);
-    font-size: 87px;
+    font-size: 90px;
     text-align: center;
 	padding: 30px;
 	-webkit-text-stroke-width: 3px;
