@@ -57,7 +57,7 @@ $(document).ready(function() {
 	  },
 	  {
 	    question: "What is the name of the fifth grade genius always inventing some new gadget with his robot dog?",
-	    choices: ["Timmy Turner", "Jimmy Neutron", "Carl Wheezer", "Jimmy Turner"],
+	    choices: ["Timmy Turner", "Jimmy Turner", "Carl Wheezer", "Jimmy Neutron"],
 	    correctAnswer: "Jimmy Neutron",
 	    image: "<img src='assets/images/jimmy.gif'>"
 	  },
@@ -68,46 +68,40 @@ $(document).ready(function() {
 	    image: "<img src='assets/images/jake.gif'>"
 	  },
 	  {
-	    question: "Who is the protagonist of Nintendo's franchise often set in the Kingdom of Hyrule?",
+	    question: "Who are the villians in Emperor's New Groove?",
 	    choices: ["Klonk & Elma", "Kronk & Yzma", "Klong &  Yzma", "Krank & Zema"],
 	    correctAnswer: "Kronk & Yzma",
 	    image: "<img src='assets/images/kronk.gif'>"
 	  },
 	  {
-	    question: "Penny Proud is the main character of what cartoon?",
+	    question: "Penny Proud is the main character of what Cartoon?",
 	    choices: ["Family Guy", "Regular Show", "Proud Family", "Rick & Morty"],
 	    correctAnswer: "Proud Family",
 	    image: "<img src='assets/images/penny.gif'>"
 	  },
 	  {
-	    question: "Joel and Ellie are two companions in what video game?",
-	    choices: ["Dragon Quest VIII", "Final Fantsay XIII", "The Last of Us", "Dragon Age: Origins"],
-	    correctAnswer: "The Last of Us",
-	    image: "<img src='assets/images/lastOfUs.jpg' class='img-circle shadow'>"
+	    question: "What is the name of Spongebob's pet snail?",
+	    choices: ["Slimy", "Gary", "Patrick", "Tony"],
+	    correctAnswer: "Gary",
+	    image: "<img src='assets/images/gary.gif'>"
 	  },
 	  {
-	    question: "In which game can you find tears, vigors and robotic patriots?",
-	    choices: ["Bioshock: Infinite", "Modern Warfare", "Wolfenstein", "Civilization IV"],
-	    correctAnswer: "Bioshock: Infinite",
-	    image: "<img src='assets/images/bioshock.jpg' class='img-circle shadow'>"
+	    question: "Who is Kim Possible's Arch-Nemesis?",
+	    choices: ["Señor Senior Jr.,", "Monkey Fist", " Shego", "Ron Stoppable"],
+	    correctAnswer: "Shego",
+	    image: "<img src='assets/images/shego.gif'>"
 	  },
 	  {
-	    question: "Who developed the Mass Effect series? ",
-	    choices: ["Bethesda", "Bioware", "Ubisoft", "2K Games"],
-	    correctAnswer: "Bioware",
-	    image: "<img src='assets/images/bioware.jpg' class='img-circle shadow'>"
+	    question: "What is Stitch's experiment number, from 'Lilo and Stitch'?",
+	    choices: ["626", "262", "186", "681"],
+	    correctAnswer: "626",
+	    image: "<img src='assets/images/stitch.gif'>"
 	  },
 	  {
-	    question: "Inhabitants of which fictional town find themselves under the influence of the doctrines of The Order?",
-	    choices: ["Raccoon City", "Silent Hill", "Bright Falls", "Rapture"],
-	    correctAnswer: "Silent Hill",
-	    image: "<img src='assets/images/silentHill.jpg' class='img-circle shadow'>"
-	  },
-	  {
-	    question: "Which of these characters can't jump in any of their games?",
-	    choices: ["Link", "Agent 47", "Pac Man", "James Bond"],
-	    correctAnswer: "Agent 47",
-	    image: "<img src='assets/images/hitman.jpg' class='img-circle shadow'>"
+	    question: "Which brother from Phineas and Ferb had green hair?",
+	    choices: ["Phineas", "Ferb"],
+	    correctAnswer: "Ferb",
+	    image: "<img src='assets/images/ferb.gif'>"
 	  }];
 	  
 

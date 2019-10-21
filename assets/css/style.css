@@ -5,8 +5,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	font-family: 'Modak', cursive;
-    font-family: 'Anton', sans-serif; 
+	
     font-family: 'Baloo Bhai', cursive; 
 }
 
@@ -24,13 +23,16 @@ h1 {
    -webkit-text-stroke-color: black;
 }
 
-
+p {
+    font-size: 50px;
+    
+}
 
 h2,
 h3 {
 	font-family: 'Modak', cursive;
     color: rgb(130, 180, 255);
-    font-size: 45px;
+    font-size: 50px;
 	padding: 30px;
 	-webkit-text-stroke-width: 3px;
    -webkit-text-stroke-color: black;
@@ -64,15 +66,16 @@ img {
 }
 
 .choices:hover {
-	background-color: red;
+	background-color: rgb(255, 217, 0);
 	color: white;
 }
 
 #gameScreen {
     padding: 27px;
+    font-size: 40px;
 	-webkit-box-shadow: 7px 5px 47px 0px rgba(0, 89, 255, 0.76);
 	-moz-box-shadow: 7px 5px 47px 0px rgba(0, 204, 255, 0.76);
-	box-shadow: 20px 5px 47px 0px rgba(43, 155, 247, 0.76);
+	box-shadow: 20px 5px 47px 0px rgba(165, 43, 247, 0.76);
 }
 
 .shadow {
