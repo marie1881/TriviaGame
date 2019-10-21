@@ -15,11 +15,11 @@ html {
 
 h1 {
     font-family: 'Modak', cursive;
-    color: rgb(91, 161, 241);
-    font-size: 65px;
+    color: rgb(91, 119, 241);
+    font-size: 87px;
     text-align: center;
 	padding: 30px;
-	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-width: 3px;
    -webkit-text-stroke-color: black;
 }
 
@@ -28,10 +28,11 @@ h1 {
 h2,
 h3 {
 	font-family: 'Modak', cursive;
-    color: rgb(255, 255, 255);
+    color: rgb(130, 180, 255);
     font-size: 45px;
 	padding: 30px;
-	text-shadow: 2px 2px rgb(0, 0, 0)(189, 55, 55);
+	-webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: black;
 }
 
 .answer,
@@ -40,7 +41,12 @@ h3 {
 }
 
 #start {
-	color: black;
+	font-family: 'Modak', cursive;
+    color: rgb(214, 239, 241);
+    font-size: 65px;
+	padding: 30px;
+	-webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: black;
 }
 
 .choices {
@@ -56,13 +62,13 @@ h3 {
 }
 
 #gameScreen {
-	-webkit-box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
-	-moz-box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
-	box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
+	-webkit-box-shadow: 7px 5px 47px 0px rgba(0, 89, 255, 0.76);
+	-moz-box-shadow: 7px 5px 47px 0px rgba(0, 204, 255, 0.76);
+	box-shadow: 20px 5px 47px 0px rgba(43, 155, 247, 0.76);
 }
 
 .shadow {
-	-webkit-box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
-	-moz-box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
-	box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
+	-webkit-box-shadow: -7px 6px 5px -1px rgba(0, 225, 255, 0.79);
+	-moz-box-shadow: -7px 6px 5px -1px rgba(0, 60, 255, 0.79);
+	box-shadow: -7px 6px 5px -1px rgba(102, 205, 253, 0.79);
 }
