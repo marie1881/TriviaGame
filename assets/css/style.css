@@ -1,5 +1,6 @@
 body { 
-	background: url(../images/cartoon.jpg) no-repeat center center fixed;
+    background: url(../images/cartoon.jpg) no-repeat center center fixed;
+    background-size: auto;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -37,6 +38,7 @@ h3 {
 
 .answer,
 #timer {
+    color: rgb(17, 170, 17);
 	font-weight: 900;
 }
 
@@ -56,12 +58,18 @@ h3 {
 	margin: 0 35%;
 }
 
+img {
+    width: 400px;
+    height: 250px;
+}
+
 .choices:hover {
 	background-color: red;
 	color: white;
 }
 
 #gameScreen {
+    padding: 27px;
 	-webkit-box-shadow: 7px 5px 47px 0px rgba(0, 89, 255, 0.76);
 	-moz-box-shadow: 7px 5px 47px 0px rgba(0, 204, 255, 0.76);
 	box-shadow: 20px 5px 47px 0px rgba(43, 155, 247, 0.76);
