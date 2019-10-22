@@ -66,7 +66,8 @@ img {
 }
 
 #gameScreen {
-    padding: 27px;
+	padding: 50px;
+	height: 300px;
     font-size: 40px;
     background-color: rgb(23, 201, 255);
     border: 2px solid black;
